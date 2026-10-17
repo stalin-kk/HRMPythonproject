@@ -19,10 +19,8 @@ class Test_login:
         self.login_page.login(Username, Password)
 
 
-
     def test_valid_login2(self):
         self.login_page.login(Username, Password)
-
 
 
     def teardown_class(self):
